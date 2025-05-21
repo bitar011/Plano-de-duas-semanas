@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.adc{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #ff7e5f;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.adc:hover{
+    background-color: #ff7e5f;
+    color: #fff;
+    transition: .3s;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    background: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    width: 300px;
+    text-align: start;
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px;
+}
+
+.deleteBtn{
+    background: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+}
+
+.editBtn{
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+}
+
+.checkBtn{
+    width: 18px;
+    height: 18px;
+    accent-color: #00c853;
+    cursor: pointer;
+    
+}
+
+li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.btnGroup{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
