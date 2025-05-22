@@ -51,3 +51,18 @@ button{
 button:hover{
     background: #ddd;
 }
+
+body.dark{
+    background: linear-gradient(45deg, #331c72, #000000);;
+    color: #ffffff;
+}
+body.dark .calculator{
+    background: #1e1e1e;
+}
+body.dark button{
+    background: #333;
+    color: #fff;
+}
+body.dark button:hover{
+    background: #727272;
+}
