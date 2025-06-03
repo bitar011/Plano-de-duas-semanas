@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    caret-color: white;
+}
+
+.container{
+    background: white;
+    color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input, select{
+    padding: 10px;
+    margin: 10px 0;
+    width: 200px;
+    font-size: 16px;
+}
+
+p{
+    margin-top: 20px;
+    font-size: 18px;
+}
