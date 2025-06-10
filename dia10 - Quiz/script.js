@@ -13,6 +13,16 @@ const questions = [
         question: "Qual linguagem usamos no navegador?",
         options: ["Python", "JavaScript", "Java"],
         answer: "JavaScript"
+    },
+    {
+        question: "Qual o nome do Homem de Ferro?",
+        options: ["Tony Stark", "Peter Parker", "Bruce Banner"],
+        answer: "Tony Stark"
+    },
+    {
+        question: "Qual o menor país do mundo?",
+        options: ["Pernambuco", "Guiana Inglesa", "Vaticano"],
+        answer: "Vaticano"
     }
 ]
 
