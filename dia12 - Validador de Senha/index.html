@@ -9,13 +9,17 @@
 <body>
     <div class="container">
         <h1>Crie uma senha segura</h1>
-        <input type="password" id="password" placeholder="Digite sua senha" />
+        <div class="password-field">
+            <input type="password" id="password" placeholder="Digite sua senha" />
+            <span id="toggle-password">👁️</span>
+        </div>
         <ul id="validation">
             <li id="length">🔴 Mínimo de 8 caracteres</li>
             <li id="uppercase">🔴 Uma letra maiúscula</li>
             <li id="number">🔴 Um número</li>
             <li id="special">🔴 Um caractere especial (!@#$%)</li>
         </ul>
+        <p id="strength">Força: -</p>
     </div>
 
     <script src="script.js"></script>

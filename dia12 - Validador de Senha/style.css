@@ -30,6 +30,19 @@ input{
     margin-top: 20px;
 }
 
+.password-field{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#toggle-password{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
 ul{
     list-style: none;
     padding: 0;
@@ -38,5 +51,10 @@ ul{
 
 li{
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 14px;    
+}
+
+#strength{
+    font-weight: bold;
+    margin-top: 10px;
 }
