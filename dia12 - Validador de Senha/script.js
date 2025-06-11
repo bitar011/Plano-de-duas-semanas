@@ -1,7 +1,7 @@
 const passwordInput = document.getElementById("password")
 const togglePassword = document.getElementById("toggle-password")
 
-const lenghtEl = document.getElementById("length")
+const lengthEl = document.getElementById("length")
 const uppercaseEl = document.getElementById("uppercase")
 const numberEl = document.getElementById("number")
 const specialEl = document.getElementById("special")
@@ -22,7 +22,7 @@ passwordInput.addEventListener("input", () => {
     const hasNumber = /[0-9]/.test(password)
     const hasSpecial = /[!@#$%^&*(),.?":{}|<>]/.test(password)
 
-    updateValidation(lenghtEl, hasLength)
+    updateValidation(lengthEl, hasLength)
     updateValidation(uppercaseEl, hasUppercase)
     updateValidation(numberEl, hasNumber)
     updateValidation(specialEl, hasSpecial)
